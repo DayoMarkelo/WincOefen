@@ -1,0 +1,95 @@
+h1 {text-align: center;}
+body {background-color:white;text-align: center;}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images/banner.jpg");
+
+  height: 40%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .nav-text {
+    text-decoration: none;
+    color: #ABD3DB;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+.nav-part {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.line-block-bio{
+  display: inline-block;
+  width:300px;
+  height:200px;
+}
+
+.product-img {
+  width: 250px;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #ABD3DB;
+    margin-bottom: 25px;
+  }
+
+.product-image {
+  width: 250px;
+    height: auto;
+    border-radius: 100%;
+    border: 8px solid #FFFFE1;
+    margin-bottom: 25px;
+  }
+
+.artikel {
+  margin-bottom: 45px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.form label {
+  display: block;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1000px)  {
+
+  body {background-color: whitesmoke}
+
+  .artikel-styling {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 2fr;
+      grid-column-gap: 10px;
+      grid-row-gap: 0;
+  }
+
+  footer {
+      background-color: #ABD3DB;
+      padding: 100px 0;
+      margin-top:50px;
+      text-align: center;
+      font-weight: 400;
+      color: #fff;
+    }
+    
+   
